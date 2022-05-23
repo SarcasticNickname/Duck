@@ -13,26 +13,32 @@
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/duck" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:textSize="20sp"
-        android:text="@string/duck_text" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/duck_text" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="50dp"
-        android:textSize="20sp"
-        android:text="@string/funny"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="200dp"
-        android:paddingTop="16dp"
-        android:textSize="20sp"
-        android:text="@string/third"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:textSize="20sp"
+            android:text="@string/funny"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="200dp"
+            android:paddingTop="16dp"
+            android:textSize="20sp"
+            android:text="@string/third"/>
+    </LinearLayout>
 
 </FrameLayout>
